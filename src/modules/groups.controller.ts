@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable prefer-const */
 import {
   Controller,
   Get,
@@ -9,8 +11,9 @@ import {
   Query,
   Put,
 } from '@nestjs/common';
-import { UserDto } from 'src/submodules/backend-refresher-1.0-dtos/src/dtos/user.dto';
-import { GroupDto } from 'src/submodules/backend-refresher-1.0-dtos/src/dtos/group.dto';
+import { GroupDto } from 'src/submodules/backendrefresher-1.0-dtos/src/dtos/group.dto';
+import { UserDto } from 'src/submodules/backendrefresher-1.0-dtos/src/dtos/user.dto';
+
 
 import { GroupsService } from './groups.service';
 

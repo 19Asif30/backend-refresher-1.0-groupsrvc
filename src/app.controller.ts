@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable prefer-const */
 import {
   Body,
   Controller,
@@ -9,8 +11,7 @@ import {
   Query,
 } from '@nestjs/common';
 import { AppService } from './app.service';
-import { GroupDto } from './submodules/backend-refresher-1.0-dtos/src/dtos/group.dto';
-import { UserDto } from './submodules/backend-refresher-1.0-dtos/src/dtos/user.dto';
+
 
 @Controller()
 export class AppController {

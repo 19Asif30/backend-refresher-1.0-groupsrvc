@@ -1,9 +1,12 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable prefer-const */
+/* eslint-disable prettier/prettier */
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { GroupDto } from 'src/submodules/backend-refresher-1.0-dtos/src/dtos/group.dto';
-import { UserDto } from 'src/submodules/backend-refresher-1.0-dtos/src/dtos/user.dto';
-import { Group } from 'src/submodules/backend-refresher-entities-1.0/src/entities/group.entity';
-import { User } from 'src/submodules/backend-refresher-entities-1.0/src/entities/user.entity';
+import { Group } from 'src/submodules/backend-refresher-1.0-entities/src/entities/group.entity';
+import { User } from 'src/submodules/backend-refresher-1.0-entities/src/entities/user.entity';
+import { GroupDto } from 'src/submodules/backendrefresher-1.0-dtos/src/dtos/group.dto';
+import { UserDto } from 'src/submodules/backendrefresher-1.0-dtos/src/dtos/user.dto';
 import { Repository } from 'typeorm';
 
 @Injectable()

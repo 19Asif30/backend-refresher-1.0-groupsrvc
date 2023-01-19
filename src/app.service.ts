@@ -1,10 +1,11 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable prefer-const */
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { GroupDto } from './submodules/backend-refresher-1.0-dtos/src/dtos/group.dto';
-import { UserDto } from './submodules/backend-refresher-1.0-dtos/src/dtos/user.dto';
-import { Group } from './submodules/backend-refresher-entities-1.0/src/entities/group.entity';
-import { User } from './submodules/backend-refresher-entities-1.0/src/entities/user.entity';
+import { Group } from './submodules/backend-refresher-1.0-entities/src/entities/group.entity';
+import { User } from './submodules/backend-refresher-1.0-entities/src/entities/user.entity';
+
 
 @Injectable()
 export class AppService {
